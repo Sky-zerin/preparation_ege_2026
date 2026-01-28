@@ -102,3 +102,4 @@ for n in range (1,10000):
         res.append(r)
 print(min(res))'''
 #######################################
+for n in range (100,100000):

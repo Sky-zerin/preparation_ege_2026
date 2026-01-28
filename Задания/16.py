@@ -26,3 +26,15 @@ def f(n):
         return n+3+f(n+3)
 print(f(2018)-f(2022))'''
 #############################
+def f(n):
+    if n==0:
+        return 1
+    if n%2!=0:
+        return (n%10)*f(n//100)
+    if n%2==0:
+        return f(n//100)
+    k=0
+    for x in range(10**7,8*10**7+1):
+        if f(x)==35:
+            k+=1
+    print(k)

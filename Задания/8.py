@@ -120,3 +120,13 @@ for x in product(alf, repeat=5):
                 k+=1
                 print(k,s)'''
 #############################
+'''from itertools import*
+alf='ИГОРЬ'
+k=0
+for x in product(alf,repeat=8):
+    s=''.join(x)
+    if s.count('Ь')==1 and s.count('О')==1:
+        if s[0] not in 'Ь':
+            k+=1
+print(k)'''
+#############################

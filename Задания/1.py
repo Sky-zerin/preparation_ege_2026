@@ -12,3 +12,10 @@ for s in permutations('abcdefgh'):
     if all(str(s.index(x)+1) in tb [s.index(y)] for x,y in dr):
         print(s)'''
 #######################################
+'''from itertools import*
+table ='28 1467 59 29 37 289 259 16 3467'.split()
+draw ='АБ БВ ВЕ ЕК КИ ИЖ ЖГ АГ ГД ДЕ ЖЕ ГВ'.split()
+for t in permutations('АБВГДЕЖИК'):
+    if all(str(t.index(x)+1) in table [t.index(y)] for x,y in draw):
+        print(t)'''
+#######################################
