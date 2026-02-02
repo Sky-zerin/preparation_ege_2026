@@ -211,23 +211,3 @@ for x in range (-40,40):
         goto(x*c,y*c)
         dot(3,"red")
 done()'''
-####################
-from turtle import*
-tracer(0)
-c=30
-lt(90)
-screensize(5000,5000)
-x=2
-for i in range (4):
-    fd(x*c)
-    rt(90)
-    fd(x*c)
-    lt(90)
-    fd(x*c)
-    rt(90)
-up()
-for x in range (-40,40):
-    for y in range (-40,40):
-        goto(x*c,y*c)
-        dot(3,"red")
-done()
