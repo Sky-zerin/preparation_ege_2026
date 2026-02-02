@@ -29,7 +29,7 @@ for x in range (0,2):
                 if (((x<=y) or (y==w)) and ((x or z) == w)) == 1:
                     print(x,y,z,w)'''
 #############################
-'''print ("w,x,y,x")
+'''print ("w,x,y,z")
 for w in range(0,2):
     for x in range(0,2):
         for y in range (0,2):

@@ -193,14 +193,14 @@ for i in range (2):
     rt(90)
 up()
 
-fd(4*c)
+fd(5*c)
 rt(90)
-fd(10*c)
+fd(7*c)
 lt(90)
 down()
 
 for i in range (2):
-    fd(17*c)
+    fd(10*c)
     rt(90)
     fd(7*c)
     rt(90)
@@ -211,3 +211,4 @@ for x in range (-40,40):
         goto(x*c,y*c)
         dot(3,"red")
 done()'''
+####################

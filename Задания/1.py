@@ -21,8 +21,8 @@ for t in permutations('АБВГДЕЖИК'):
 #######################################
 '''from itertools import *
 tb ="367 357 12467 356 24 134 123".split()
-dr="ad ag ae ef eg eb ec bg bc cf".split()
+dr="ad ag ae ef eg eb ec bg bc cf df".split()
 for t in permutations("abcdefg"):
     if all(str(t.index(x)+1) in tb [t.index(y)] for x,y in dr):
         print(t)'''
-#############################
+#######################################

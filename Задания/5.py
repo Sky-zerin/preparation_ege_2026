@@ -102,7 +102,7 @@ for n in range (1,10000):
         res.append(r)
 print(min(res))'''
 #######################################
-def to_base4(n):
+'''def to_base4(n):
     res = ""
     while n > 0:
         res = str(n % 4) + res
@@ -113,11 +113,12 @@ def from_base4(s):
 for N in range(1, 1000):
     base4 = to_base4(N)
     if N % 4 == 0:
-        R_base4 = base4[:-1]          # отброс последней цифры
+        R_base4 = base4[:-1]
     else:
         r = str(N % 4)
-        R_base4 = r + base4 + r       # приписываем остаток
+        R_base4 = r + base4 + r
     R = from_base4(R_base4)
     if R > 313:
         print(N)
-        break
+        break'''
+#######################################

@@ -130,3 +130,14 @@ for x in product(alf,repeat=8):
             k+=1
 print(k)'''
 #############################
+'''from itertools import*
+alf='ВИШНЯ'
+k=0
+for x in product(alf, repeat=5):
+    s=''.join(x)
+    if s.count('В')<=1:
+        if s[0] not in 'Ш':
+            if s[4] not in 'ИЯ':
+                k+=1
+                print(k)'''
+#############################
