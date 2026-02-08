@@ -75,3 +75,27 @@ for i in range(N):
 doubled_array=[x*2 for x in array]
 print("Полученный массив:", doubled_array)'''
 #########################################
+'''a = int(input())
+a = (a//60)%60
+print (a)'''
+####################
+'''n=int(input())
+p=3.14
+print(p*n)'''
+####################
+'''N=int(input())
+element=input()
+mas=[]
+print()
+for i in range(N):
+  mas.append(element)
+mas=[x*2 for x in mas]
+print(mas, end=' ')'''
+###################################
+'''def F(n):
+  if n > 0:
+    F(n - 3)
+    print(n, end="")
+    F(n // 3)
+print (F(9))'''
+###################################

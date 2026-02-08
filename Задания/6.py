@@ -149,38 +149,6 @@ for x in range (-40,40):
         dot(3,'red')
 done()'''
 ####################
-'''from turtle import *
-tracer(0)
-lt(90)
-c=20
-screensize(2000,2000)
-
-for i in range (4):
-    fd (9*c)
-    lt(180)
-    back(10*c)
-    rt(90)
-up()
-
-back(7*c)
-lt(90)
-fd(3*c)
-rt(90)
-down()
-
-for i in range(2):
-    fd (17*c)
-    lt(90)
-    fd(20*c)
-    lt(90)
-up()
-
-for x in range (-40,40):
-    for y in range (-40,40):
-        goto(x*c,y*c)
-        dot(3,"red")
-done()'''
-####################
 '''from turtle import*
 tracer(0)
 screensize(2000,2000)

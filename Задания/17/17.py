@@ -138,7 +138,7 @@ for i in range (len(s)-1):
         summ=max(summ,s[i]+s[i+1])
 print(k,summ)'''
 #################
-f=open('17.txt')
+'''f=open('17.txt')
 s=[int(i) for i in f]
 k=0
 summ=0
@@ -152,4 +152,5 @@ for i in range (len(s)-1):
         if (s[i]**2 + s[i+1]**2)%number==0:
             k+=1
             summ=max(summ,s[i]+s[i+1])
-print(k,summ)
+print(k,summ)'''
+#################

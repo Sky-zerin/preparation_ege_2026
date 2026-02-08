@@ -1,4 +1,4 @@
-def f(k1,k2,hod,hod_itog,igrok):
+'''def f(k1,k2,hod,hod_itog,igrok):
     if hod>hod_itog:
         return False
     if k1+k2<=40:
@@ -12,4 +12,27 @@ def f(k1,k2,hod,hod_itog,igrok):
         f(k1-1,k2,hod+1,hod_itog,igrok) or f(k1,k2-1,hod+1,hod_itog,igrok) or f(k1//2,k2,hod+1,hod_itog,igrok) or f(k1,k2//2,hod+1,hod_itog,igrok)
 for s in range (1,78):
     if f(k1=20,k2=s,hod=0,hod_itog=2,igrok=1)==True:
-        print(s)
+        print(s)'''
+##################################
+'''def f(s1,s2,hod,hod_itog,igrok):
+    if hod>hod_itog:
+        return False
+    if s1+s2>=40:
+        if s1+s2<=49:
+            if hod%2==igrok:
+                return True
+            else:
+                return False
+        else:
+            if hod%2==igrok:
+                return False
+            else:
+                return True
+    if (hod+1)%2==igrok:
+        return f(s1+1,s2,hod+1,hod_itog,igrok) or f(s1*2,s2,hod+1,hod_itog,igrok) or f(s1,s2+1,hod+1,hod_itog,igrok) or f(s1,s2*2,hod+1,hod_itog,igrok)
+    else:
+        return f(s1 + 1, s2, hod + 1, hod_itog, igrok) and f(s1 * 2, s2, hod + 1, hod_itog, igrok) and f(s1, s2 + 1,hod + 1,hod_itog,igrok) and f(s1,s2 * 2,hod + 1,hod_itog,igrok)
+for s2 in range (1,26):
+    if f(s1=14,s2=s2,hod=0,hod_itog=4,igrok=0)==True and f(s1=14,s2=s2,hod=0,hod_itog=2,igrok=0)==False:
+        print(s2)'''
+##################################
