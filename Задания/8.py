@@ -141,3 +141,12 @@ for x in product(alf, repeat=5):
                 k+=1
                 print(k)'''
 #############################
+from itertools import*
+alf='АМПТЬЯ'
+k=0
+for x in product(alf,repeat=5):
+    s=''.join(x)
+    if s.count('Ь')==0:
+        if s.count('Я')==2:
+            k+=1
+            print(k,s)

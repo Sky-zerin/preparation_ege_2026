@@ -26,3 +26,10 @@ for t in permutations("abcdefg"):
     if all(str(t.index(x)+1) in tb [t.index(y)] for x,y in dr):
         print(t)'''
 #######################################
+'''from itertools import*
+tb='467 345 27 126 267 145 135'.split()
+dr='AB BG GE EF FA AD FD DC EC BC'.split()
+for t in permutations('ABCDEFG'):
+    if all(str(t.index(x)+1) in tb [t.index(y)] for x,y in dr):
+        print(t)'''
+#######################################

@@ -33,3 +33,12 @@ print(f(2018)-f(2022))'''
         return f(n-7)+3*n
 print(f(2803)+f(2789))'''
 #############################
+'''import sys
+sys.setrecursionlimit(100000)
+def f(n):
+    if n<10:
+        return n*n
+    if n>=10:
+        return (n-1)*f(n-2)
+print((f(34652)-250*f(34650))//f(34648))'''
+#############################

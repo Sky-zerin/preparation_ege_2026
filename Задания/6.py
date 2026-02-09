@@ -180,3 +180,35 @@ for x in range (-40,40):
         dot(3,"red")
 done()'''
 ####################
+'''from turtle import*
+tracer(0)
+screensize(2000,2000)
+k=30
+lt(90)
+
+for i in range (4):
+    fd(16*k)
+    rt(90)
+    fd(22*k)
+    rt(90)
+up()
+
+fd(5*k)
+rt(90)
+fd(5*k)
+lt(90)
+down()
+
+for i in range (4):
+    fd(57*k)
+    rt(90)
+    fd(75*k)
+    rt(90)
+up()
+
+for x in range (-40,40):
+    for y in range (-40,40):
+        goto (x*k,y*k)
+        dot(5,'red')
+done()'''
+####################
