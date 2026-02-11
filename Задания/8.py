@@ -146,8 +146,8 @@ alf='АМПТЬЯ'
 k=0
 for x in product(alf,repeat=5):
     s=''.join(x)
+    k += 1
     if s.count('Ь')==0:
         if s.count('Я')==2:
-            k+=1
             print(k,s)'''
 #############################

@@ -122,3 +122,27 @@ for N in range(1, 1000):
         print(N)
         break'''
 #######################################
+'''res=[]
+def tr(n):
+    s=''
+    while n>0:
+        s=str(n%3)+s
+        n//=3
+    return s
+for N in range (1,10000):
+    n3=tr(N)
+    if N%3==0:
+        n3=n3+n3[-2:]
+    else:
+        a=int(n3)
+        summ=0
+        while a>0:
+            summ=a%10
+            a=a//10
+        summ3=tr(summ)
+        n3=n3+summ3
+    R=int(n3,3)
+    if (R%2==0) and R>220:
+        res.append(R)
+print (min(res))'''
+#######################################

@@ -154,3 +154,16 @@ for i in range (len(s)-1):
             summ=max(summ,s[i]+s[i+1])
 print(k,summ)'''
 #################
+'''f=open('17.txt')
+s=[int(i) for i in f]
+k=0
+summ=10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+maxe=[int(x) for x in s if len(str(abs(x)))==5 and abs(x)%100==43]
+maxe1=max(maxe)
+for i in range (len(s)-2):
+    if s[i] in maxe or s[i+1] in maxe or s[i+2] in maxe:
+        if s[i]**2 + s[i+1]**2 + s[i+2]**2 <=maxe1**2:
+            k+=1
+            summ=min(summ,s[i]**2+s[i+1]**2+s[i+2]**2)
+print(k,summ)'''
+#################
