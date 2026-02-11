@@ -1,4 +1,4 @@
-'''def f(s,hod, hod_itog, igrok):
+''''def f(s,hod, hod_itog, igrok):
     if hod > hod_itog:
         return False
     if s<=60:
