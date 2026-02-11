@@ -122,16 +122,3 @@ for N in range(1, 1000):
         print(N)
         break'''
 #######################################
-def to_base3(n):
-    res=''
-    while n>0:
-        res = str(n%3)+res
-        n//=3
-    return res
-def from_base3(s):
-    return int(s,3)
-for N in range (1,10000):
-    base3=to_base3(N)
-    if N%3==0:
-        R_base3=base3[:-2]
-    else:
