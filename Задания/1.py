@@ -33,3 +33,10 @@ for t in permutations('ABCDEFG'):
     if all(str(t.index(x)+1) in tb [t.index(y)] for x,y in dr):
         print(t)'''
 #######################################
+'''from itertools import*
+tb='457 46 567 12 136 235 13'.split()
+dr='AB BD DF FE EC CA AB DG FG GC'.split()
+for t in permutations('ABCDEFG'):
+    if all(str(t.index(x)+1) in tb [t.index(y)] for x,y in dr):
+        print(t)'''
+#######################################
